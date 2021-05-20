@@ -23,8 +23,8 @@ public class Main {
         hashTable.put(1,"Всем большой Рахмет");
         hashTable.put(2,1984);
         System.out.println("This next two rows, These values in the same key [2021,\"Всем большой Рахмет\"].");
-        System.out.println("Check contains?:" + hashTable.contains(2021));
-        System.out.println("Check contains?:" + hashTable.contains("Всем большой Рахмет"));
+        System.out.println("Check contains?: " + hashTable.contains(2021));
+        System.out.println("Check contains?: " + hashTable.contains("Всем большой Рахмет"));
         //
         System.out.println("Show by get(2), the value: " + hashTable.get(2));
         System.out.println("Show by getKey(1984), the key: " + hashTable.getKey(1984));
